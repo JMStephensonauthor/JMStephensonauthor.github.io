@@ -14,6 +14,42 @@
         line-height: 1.6;
     }
 
+    /* NAVIGATION */
+    .nav {
+        background: #0b0c10;
+        border-bottom: 1px solid #222;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .nav-container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 15px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .brand {
+        font-weight: bold;
+        letter-spacing: 1px;
+        color: #eaeaea;
+    }
+
+    .links a {
+        color: #bdbdbd;
+        margin-left: 20px;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .links a:hover {
+        color: #c94a4a;
+    }
+
+    /* HEADER */
     header {
         padding: 100px 20px 60px;
         text-align: center;
@@ -33,6 +69,7 @@
         font-style: italic;
     }
 
+    /* CONTENT */
     .container {
         max-width: 850px;
         margin: 60px auto;
@@ -57,6 +94,7 @@
         margin-top: 20px;
     }
 
+    /* FOOTER */
     footer {
         text-align: center;
         padding: 40px;
@@ -73,6 +111,20 @@
 
 <body>
 
+<!-- NAVIGATION -->
+<nav class="nav">
+    <div class="nav-container">
+        <div class="brand">J M Stephenson</div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="books.html">Books</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<!-- HEADER -->
 <header>
     <h1>J M Stephenson</h1>
     <div class="tagline">
@@ -80,6 +132,7 @@
     </div>
 </header>
 
+<!-- CONTENT -->
 <div class="container">
 
     <h2>Welcome</h2>
